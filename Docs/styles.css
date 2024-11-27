@@ -1,0 +1,67 @@
+/* Colors from the provided palette */
+        :root {
+            --primary: #f39c12;
+            --primary-dark: #d35400;
+            --secondary: #ecf0f1;
+            --text-dark: #34495e;
+            --text-light: #fff;
+            --background: #2c3e50;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background: var(--secondary);
+        }
+
+        header {
+            background: var(--primary);
+            color: var(--text-light);
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background: var(--primary-dark);
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: var(--text-light);
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 20px;
+            background: var(--text-light);
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: var(--primary);
+        }
+
+        footer {
+            background: var(--background);
+            color: var(--text-light);
+            text-align: center;
+            padding: 10px 20px;
+            margin-top: 20px;
+        }
